@@ -527,7 +527,6 @@ export default class ServicesStore extends Store {
         });
       }
     } else if (channel === 'service-window') {
-
       const event = args[0];
       const url = args[0].url;
       let searchServiceId = 'not-found';
